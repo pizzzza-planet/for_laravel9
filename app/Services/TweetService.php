@@ -19,6 +19,6 @@ class TweetService
             return false;
         }
 
-        return $tweet->userId === $userId;
+        return $tweet->user_id === $userId;
     }
 }
